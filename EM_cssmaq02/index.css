@@ -1,0 +1,79 @@
+html, body{
+    margin: 0px;
+    padding:0px;
+    font-family: tahoma, arial, serif;
+    font-size: small;
+    background: #f9f9f9;
+}
+#contenedor{
+    width: 960px;
+    margin: auto;
+}
+h2{
+    font-size: 180%;
+    font-weight:normal;
+}
+h3{
+    font-size: 120%;
+}
+header{
+    display: block;
+    padding:10px;
+    margin:10px;
+    background:#fff;
+}
+nav{
+    background:#397f8c;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    display: block;
+    margin-right: 5px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+a.activo{
+    background:#222;
+}
+section{
+    width: 79%;
+    background: #fff;
+    float: left;
+    overflow: auto;
+    padding-bottom: 60px;
+    padding-top:30px;
+}
+article .info{
+    margin: 10px 0px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #dee5fd;
+    color: #6685cc;
+}
+article .info a{
+    color: #397f8c;
+}
+article .info a:hover{
+    color:#ff9000;
+}
+article .info span.fecha, article .info span.categoria,
+article .info span.autor, article .info span.comentarios{
+    padding-left:15px;
+}
+article .info span.fecha{
+    background: url("img/icono_fecha.gif") 0 50% no-repeat;
+}
+article .info span.categoria{
+    background:url("img/icono_categoria.gif") 0 50% no-repeat; 
+    margin-left: 8px;
+}
+article .info span.autor{
+    background: url("img/icono_autor.gif") 0 50% no repeat;
+    margin-left: 8px;
+}
+article .info span.comentarios{
+    background: url("img/icono_comentarios.gif") 0 50% no-repeat;
+    margin-left: 8px;
+}
